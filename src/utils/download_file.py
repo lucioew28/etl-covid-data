@@ -1,11 +1,3 @@
-#check if wen can connect to this url
-
-#download the file and show the pase on the terminal
-
-# https://bi.s3.es.gov.br/covid19/MICRODADOS.csv
-
-# pip intall tqdm : to show a progress bar of the file being downloaded
-
 import requests
 from tqdm import tqdm
 

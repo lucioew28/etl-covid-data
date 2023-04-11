@@ -2,10 +2,11 @@ import psycopg2
 
 # Sets the information about the db
 database_info = {
-    'database': 'exempledb',
-    'user': 'docker',
-    'password': 'docker',
-    'host': '0.0.0.0',
+    "host":"localhost",
+    "port":5432,
+    "dbname":"exampledb",
+    "user":"docker",
+    "password":"docker"
 }
 
 # Create the connectio with the db
