@@ -7,9 +7,6 @@ def filter_data(pathtodata, datafiltered):
     # Replace all NaN values with an -
     filtered_df = df.fillna('')
 
-    # Replace "Não" with False and "Sim" with True
-    filtered_df = filtered_df.replace({'Não': False, 'Sim': True})
-
     # Write the filtered data to a new CSV file
     filtered_df.to_csv(datafiltered, index=False)
 

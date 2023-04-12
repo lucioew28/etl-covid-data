@@ -1,6 +1,6 @@
 import psycopg2
 
-# Sets the information about the db
+# database info
 database_info = {
     "host":"localhost",
     "port":5432,
